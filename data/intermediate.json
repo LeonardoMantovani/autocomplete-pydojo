@@ -1,0 +1,209 @@
+[
+	{
+		"text": "RED",
+		"description": "The Red Color",
+		"type": "value"
+	},
+	{
+		"text": "GREEN",
+		"description": "The Green Color",
+		"type": "value"
+	},
+	{
+		"text": "BLUE",
+		"description": "The Blue Color",
+		"type": "value"
+	},
+	{
+		"text": "YELLOW",
+		"description": "The Yellow Color",
+		"type": "value"
+	},
+	{
+		"text": "BLACK",
+		"description": "The Black Color",
+		"type": "value"
+	},
+	{
+		"text": "WHITE",
+		"description": "The White Color",
+		"type": "value"
+	},
+	{
+		"text": "CYAN",
+		"description": "The Cyan Color",
+		"type": "value"
+	},
+	{
+		"text": "MAGENTA",
+		"description": "The Magenta Color",
+		"type": "value"
+	},
+	{
+		"text": "PINK",
+		"description": "The Pink Color",
+		"type": "value"
+	},
+	{
+		"text": "TURQUOISE",
+		"description": "The Turquoise Color",
+		"type": "value"
+	},
+	{
+		"text": "ORANGE",
+		"description": "The Orange Color",
+		"type": "value"
+	},
+	{
+		"text": "SILVER",
+		"description": "The Silver Color",
+		"type": "value"
+	},
+	{
+		"text": "GREY",
+		"description": "The Grey Color",
+		"type": "value"
+	},
+	{
+		"text": "VIOLET",
+		"description": "The Violet Color",
+		"type": "value"
+	},
+	{
+		"text": "PURPLE",
+		"description": "The Purple Color",
+		"type": "value"
+	},
+	{
+		"text": "TOMATO",
+		"description": "The Tomato's Color",
+		"type": "value"
+	},
+	{
+		"text": "BEIGE",
+		"description": "The Beige Color",
+		"type": "value"
+	},
+	{
+		"text": "LAVENDER",
+		"description": "The Lavender Color",
+		"type": "value"
+	},
+
+	{
+		"text": "COLLISION",
+		"description": "The Collision Result",
+		"type": "value"
+	},
+
+	{
+		"text": "GameInfo",
+		"description": "Class for Game Info",
+		"type": "class"
+	},
+	{
+		"text": "game_info",
+		"description": "Call the GameInfo class",
+		"type": "value"
+	},
+
+	{
+		"text": "framerate",
+		"description": "Set the framerate for your game",
+		"type": "function"
+	},
+
+	{
+		"text": "EventsStorage",
+		"description": "Class for storaged events",
+		"type": "class"
+	},
+	{
+		"text": "event_storage",
+		"description": "Call the EventsStorage class",
+		"type": "function"
+	},
+
+	{
+		"text": "MouseState",
+		"description": "Class for Mouse State",
+		"type": "class"
+	},
+	{
+		"text": "hide",
+		"description": "Hide the Mouse cursor",
+		"type": "function"
+	},
+	{
+		"text": "show",
+		"description": "Show the Mouse cursor",
+		"type": "function"
+	},
+	{
+		"text": "update_events",
+		"description": "Update Mouse state",
+		"type": "function"
+	},
+	{
+		"text": "MOUSE",
+		"description": "Call the MouseState class",
+		"type": "value"
+	},
+
+	{
+		"text": "ScreenInfo",
+		"description": "Class for the Screen Info",
+		"type": "class"
+	},
+	{
+		"text": "screen_info",
+		"description": "Call the ScreenInfo class",
+		"type": "value"
+	},
+
+	{
+		"text": "ActorsInfo",
+		"description": "Class for the Actor Info",
+		"type": "class"
+	},
+	{
+		"text": "actors_info",
+		"description": "Call the ActorsInfo class",
+		"type": "value"
+	},
+
+	{
+		"text": "CENTER",
+		"description": "Screen Center",
+		"type": "value"
+	},
+
+	{
+		"text": "ColorsInfo",
+		"description": "Class for the Colors Info",
+		"type": "class"
+	},
+	{
+		"text": "colors_info",
+		"description": "Call the ColorsInfo class",
+		"type": "value"
+	},
+
+	{
+		"text": "colorscale",
+		"description": "Function for Colors' Scale",
+		"type": "function"
+	},
+
+	{
+		"text": "screen",
+		"description": "Game's Window || (width, height, fulscreen=True/False)",
+		"type": "function"
+	},
+
+	{
+		"text": "DACANCELLAREEE",
+		"description": "Serve per non aggiungere e togliere la virgola ogni volta",
+		"type": "value"
+	}
+]

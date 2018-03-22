@@ -1,0 +1,25 @@
+{
+  "name": "autocomplete-pydojo",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "An autocomplete package which make easier write Python code using PyDojo library",
+  "keywords": [
+    "autocomplete",
+    "provider",
+    "boilerplate",
+    "pydojo"
+  ],
+  "repository": "https://github.com/lonekorean/atom-autocomplete-boilerplate",
+  "author": "Leonardo Mantovani <zebstaproduction@gmail.com> (http://zebsta.tk)",
+  "license": "",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
