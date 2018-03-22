@@ -9,8 +9,8 @@
     "boilerplate",
     "pydojo"
   ],
-  "repository": "https://github.com/lonekorean/atom-autocomplete-boilerplate",
-  "author": "Leonardo Mantovani <zebstaproduction@gmail.com> (http://zebsta.tk)",
+  "repository": "https://github.com/LeonardoMantovani/autocomplete-pydojo.git",
+  "author": "Leonardo Mantovani <leonardo@mantovani.us> (http://zebsta.tk)",
   "license": "",
   "engines": {
     "atom": ">=1.15.0 <2.0.0"
