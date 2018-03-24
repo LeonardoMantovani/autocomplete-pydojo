@@ -202,6 +202,224 @@
 	},
 
 	{
+		"text": "fill",
+		"description": "Fill the screen with a color",
+		"type": "function"
+	},
+
+	{
+		"text": "clear",
+		"description": "Clear the pen surface",
+		"type": "function"
+	},
+
+	{
+		"text": "find_file_name",
+		"description": "Find the name of a file || (path)",
+		"type": "function"
+	},
+
+	{
+		"text": "background",
+		"description": "Use an image for game's background || (path)",
+		"type": "function"
+	},
+	{
+		"text": "loadbackground",
+		"description": "Load another background for the game || (path)",
+		"type": "function"
+	},
+	{
+		"text": "setbackground",
+		"description": "Select which background use || (name)",
+		"type": "function"
+	},
+
+	{
+		"text": "default_clock",
+		"description": "The Default Clock",
+		"type": "value"
+	},
+
+	{
+		"text": "process_gliding",
+		"description": "Gliding Process",
+		"type": "function"
+	},
+
+	{
+		"text": "ACTORS",
+		"description": "Actors group",
+		"type": "value"
+	},
+
+	{
+		"text": "Clock",
+		"description": "The Game's Clock",
+		"type": "function"
+	},
+
+	{
+		"text": "wait",
+		"description": "Stop the game for some ms || (ms)",
+		"type": "function"
+	},
+
+	{
+		"text": "ticks",
+		"description": "The Game's Ticks",
+		"type": "function"
+	},
+
+	{
+		"text": "clone",
+		"description": "Clone an existing Actor || (target)",
+		"type": "function"
+	},
+
+	{
+		"text": "distance",
+		"description": "Return the distance between a and b || (a, b)",
+		"type": "function"
+	},
+
+	{
+		"text": "getactors",
+		"description": "Return all actors with a tag || (tag)",
+		"type": "function"
+	},
+
+	{
+		"text": "write",
+		"description": "Write some text || (string, position, name, fontsize, bold=True/False, italic=True/False, color)",
+		"type": "function"
+	},
+
+	{
+		"text": "Camera",
+		"description": "The Game's Camera",
+		"type": "class"
+	},
+	{
+		"text": "scroll_x",
+		"description": "Move Camera on x || (target)",
+		"type": "function"
+	},
+	{
+		"text": "scroll_y",
+		"description": "Move Camera on y || (target)",
+		"type": "function"
+	},
+	{
+		"text": "follow",
+		"description": "Say to the camera to follow a target || (target, ground)",
+		"type": "function"
+	},
+
+	{
+		"text": "CAMERA",
+		"description": "A Camera object",
+		"type": "value"
+	},
+
+	{
+		"text": "Timer",
+		"description": "A Timer || (ms)",
+		"type": "class"
+	},
+	{
+		"text": "get",
+		"description": "Get the timer value",
+		"type": "function"
+	},
+
+	{
+		"text": "spawned_actor",
+		"description": "Group of spawned actors",
+		"type": "value"
+	},
+
+	{
+		"text": "spawn",
+		"description": "Spawn an Actor || (actor, speed, direction, position, target, setup_behavior, update_behavior, autoshow=True/False)",
+		"type": "function"
+	},
+
+	{
+		"text": "tagcollide",
+		"description": "Return True if 2 actors of these tags collide || (tag1, tag2)",
+		"type": "function"
+	},
+
+	{
+		"text": "execute",
+		"description": "Run a program on a path || (path)",
+		"type": "function"
+	},
+
+	{
+		"text": "fullscreen",
+		"description": "Set Fullscreen mode",
+		"type": "function"
+	},
+
+	{
+		"text": "save",
+		"description": "Save some values locally with a tag || (data, tag)",
+		"type": "function"
+	},
+
+	{
+		"text": "load",
+		"description": "Load some saved values using their tag || (tag)",
+		"type": "function"
+	},
+
+	{
+		"text": "terminate",
+		"description": "Stop and quit the game",
+		"type": "function"
+	},
+
+	{
+		"text": "update",
+		"description": "Update the game window, it's required in While True loop of every game",
+		"type": "function"
+	},
+
+	{
+		"text": "check_collisions",
+		"description": "Check collisions at the moment",
+		"type": "function"
+	},
+
+	{
+		"text": "find",
+		"description": "Find actors using their class || (actor_class)",
+		"type": "function"
+	},
+
+	{
+		"text": "Actor",
+		"description": "Create an Actor with a sprite [in path] and a costume's name [cosname] || (path, cosname)",
+		"type": "class"
+	},
+
+	{
+		"text": "loadcostume",
+		"description": "Load another costume for the actor || (path, cosname)",
+		"type": "function"
+	},
+
+	{
+		"text": "setcostume",
+		"description": "Set a new costume for the actor [between costumes loaded] || (newcostume)",
+		"type": "function"
+	},
+
+	
+
+	{
 		"text": "DACANCELLAREEE",
 		"description": "Serve per non aggiungere e togliere la virgola ogni volta",
 		"type": "value"
