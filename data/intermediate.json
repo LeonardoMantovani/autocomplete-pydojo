@@ -629,8 +629,638 @@
 	},
 
 	{
-		"text": "DACANCELLAREEE",
-		"description": "Serve per non aggiungere e togliere la virgola ogni volta",
+		"text": "Text",
+		"description": "The Text Class || (string, fontname, fontsize, bold=True/False, italic=True/False, color)",
+		"type": "class"
+	},
+
+	{
+		"text": "write",
+		"description": "Change the text of the Text Object || (string)",
+		"type": "function"
+	},
+	{
+		"text": "setfontsize",
+		"description": "Set a new size for the Text || (fontsize)",
+		"type": "function"
+	},
+	{
+		"text": "setbold",
+		"description": "Set Bold for the Text || (True/False)",
+		"type": "function"
+	},
+	{
+		"text": "setitalic",
+		"description": "Set Italic for the Text || (True/False)",
+		"type": "function"
+	},
+	{
+		"text": "setcolor",
+		"description": "Set a new color for the Text || (color)",
+		"type": "function"
+	},
+
+	{
+		"text": "musicload",
+		"description": "Load a music || (path)",
+		"type": "function"
+	},
+	{
+		"text": "musicplay",
+		"description": "Play a music || (loops, start)",
+		"type": "function"
+	},
+
+	{
+		"text": "Sound",
+		"description": "The Sound Class || (path)",
+		"type": "class"
+	},
+	{
+		"text": "setvolume",
+		"description": "Set the Sound's volume || (volume)",
+		"type": "function"
+	},
+	{
+		"text": "volumeup",
+		"description": "Improve the Sound's volume of a value || (value)",
+		"type": "function"
+	},
+	{
+		"text": "volumedown",
+		"description": "Decrese the Sound's volume of a value || (value)",
+		"type": "function"
+	},
+
+	{
+		"text": "UP",
+		"description": "",
 		"type": "value"
+	},
+	{
+		"text": "DOWN",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "LEFT",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "RIGHT",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "BACKSPACE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "TAB",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "CLEAR",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "RETURN",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "PAUSE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "ESCAPE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "SPACE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "EXCLAIM",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "QUOTEDBL",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "HASH",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "DOLLAR",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "AMPERSAND",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "QUOTE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "LEFTPAREN",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "RIGHTPAREN",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "ASTERISK",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "PLUS",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "MINUS",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "COMMA",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "PERIOD",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "SLASH",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "ZERO",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "ONE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "TWO",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "THREE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "FOUR",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "FIVE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "SIX",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "SEVEN",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "EIGHT",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "NINE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "COLON",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "SEMICOLON",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "LESS",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "EQUALS",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "GREATER",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "QUESTION",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "AT",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "LEFTBRACKET",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "BACKSLASH",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "RIGHTBRACKET",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "CARET",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "UNDERSCORE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "BACKQUOTE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "A",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "B",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "C",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "D",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "E",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "G",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "H",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "I",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "J",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "K",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "L",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "M",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "N",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "O",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "P",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "Q",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "R",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "S",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "T",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "U",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "V",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "W",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "X",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "Y",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "Z",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "DELETE",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "INSERT",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "HOME",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "END",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "PAGEUP",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "PAGEDOWN",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F1",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F2",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F3",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F4",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F5",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F6",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F7",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F8",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F9",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F10",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F11",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F12",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F13",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F14",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "F15",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "NUMLOCK",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "CAPSLOCK",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "SCROLLOCK",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "RSHIFT",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "LSHIFT",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "RCTRL",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "LCTRL",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "RALT",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "LALT",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "RMETA",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "LMETA",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "RSUPER",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "LSUPER",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "PRINT",
+		"description": "",
+		"type": "value"
+	},
+	{
+		"text": "EURO",
+		"description": "",
+		"type": "value"
+	},
+
+	{
+		"text": "key",
+		"description": "Return True when the Key is pressed || (key)",
+		"type": "function"
+	},
+	{
+		"text": "keydown",
+		"description": "Return True when the Key is down || (key)",
+		"type": "function"
+	},
+	{
+		"text": "keyup",
+		"description": "Return True when the Key is up || (key)",
+		"type": "function"
+	},
+	{
+		"text": "anykeydown",
+		"description": "Return True when any Key is pressed || (key)",
+		"type": "function"
 	}
 ]
