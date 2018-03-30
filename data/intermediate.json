@@ -416,8 +416,217 @@
 		"description": "Set a new costume for the actor [between costumes loaded] || (newcostume)",
 		"type": "function"
 	},
+	{
+		"text": "getcostume",
+		"description": "Return the actual actor's costume)",
+		"type": "function"
+	},
+	{
+		"text": "nextcostume",
+		"description": "Switch to second cosume in after a pause|| (pause)",
+		"type": "function"
+	},
+	{
+		"text": "slidecostume",
+		"description": "Slide costumes with a pause || (first, last, pause, interval)",
+		"type": "function"
+	},
 
-	
+	{
+		"text": "play",
+		"description": "Play the Actor Animation || (animation, fps, loop, interval)",
+		"type": "function"
+	},
+
+	{
+		"text": "setx",
+		"description": "Set Actor's X || (x)",
+		"type": "function"
+	},
+	{
+		"text": "sety",
+		"description": "Set Actor's Y || (y)",
+		"type": "function"
+	},
+	{
+		"text": "changex",
+		"description": "Change Actor's X of delta value || (delta_x)",
+		"type": "function"
+	},
+	{
+		"text": "changey",
+		"description": "Change Actor's Y of a delta value || (delta_y)",
+		"type": "function"
+	},
+	{
+		"text": "getposition",
+		"description": "Return Actor's position",
+		"type": "function"
+	},
+	{
+		"text": "getx",
+		"description": "Return Actor's X",
+		"type": "function"
+	},
+	{
+		"text": "gety",
+		"description": "Return Actor's Y",
+		"type": "function"
+	},
+
+	{
+		"text": "setdirection",
+		"description": "Set Actor's direction with an angle || (angle)",
+		"type": "function"
+	},
+	{
+		"text": "getdirection",
+		"description": "Return Actor's direction",
+		"type": "function"
+	},
+
+	{
+		"text": "goto",
+		"description": "Go to a secific position || (x, y)",
+		"type": "function"
+	},
+	{
+		"text": "glide",
+		"description": "Glide to a specific position with a speed || (x, y, speed)",
+		"type": "function"
+	},
+	{
+		"text": "gorand",
+		"description": "Go to a random position in a range || (rangex, rangey)",
+		"type": "function"
+	},
+
+	{
+		"text": "pendown",
+		"description": "Use the Actor's Pen",
+		"type": "function"
+	},
+	{
+		"text": "penup",
+		"description": "Don't use the Actor's Pen",
+		"type": "function"
+	},
+	{
+		"text": "setpensize",
+		"description": "Set the size of Actor's Pen || (size)",
+		"type": "function"
+	},
+	{
+		"text": "setpencolor",
+		"description": "Set the color of Actor's Pen || (color)",
+		"type": "function"
+	},
+	{
+		"text": "changepencolor",
+		"description": "Change the color of Actor's Pen || (interval)",
+		"type": "function"
+	},
+
+	{
+		"text": "bounce",
+		"description": "Bounce if you hurt a margin",
+		"type": "function"
+	},
+
+	{
+		"text": "forward",
+		"description": "Do some steps forward || (steps)",
+		"type": "function"
+	},
+	{
+		"text": "backward",
+		"description": "Do some steps backward || (steps)",
+		"type": "function"
+	},
+
+	{
+		"text": "jump",
+		"description": "Jump at an height with some steps and in some jumps || (height, step, jumps)",
+		"type": "function"
+	},
+
+	{
+		"text": "right",
+		"description": "Turn Right of an Angle || (angle)",
+		"type": "function"
+	},
+	{
+		"text": "left",
+		"description": "Turn Left od an Angle || (angle)",
+		"type": "function"
+	},
+
+	{
+		"text": "rotate",
+		"description": "Set the rotation style [360/flip/none]|| (style)",
+		"type": "function"
+	},
+
+	{
+		"text": "point",
+		"description": "Point a target || (target)",
+		"type": "function"
+	},
+
+	{
+		"text": "scale",
+		"description": "Scale Actor's Sprite of a value || (value)",
+		"type": "function"
+	},
+
+	{
+		"text": "tag",
+		"description": "Add a tag for an Actor || (tag)",
+		"type": "function"
+	},
+	{
+		"text": "untag",
+		"description": "Remove a tag for an Actor || (tag)",
+		"type": "function"
+	},
+
+	{
+		"text": "click",
+		"description": "Return True if the Actor was LeftClicked",
+		"type": "function"
+	},
+	{
+		"text": "centralclick",
+		"description": "Return True if the Actor was CentralClicked",
+		"type": "function"
+	},
+	{
+		"text": "rightclick",
+		"description": "Return True if the Actor was RightClicked",
+		"type": "function"
+	},
+
+	{
+		"text": "collide",
+		"description": "Return True if the actor collide with a target || (target)",
+		"type": "function"
+	},
+
+	{
+		"text": "hide",
+		"description": "Hide the Actor",
+		"type": "function"
+	},
+	{
+		"text": "show",
+		"description": "Show the Actor",
+		"type": "function"
+	},
+	{
+		"text": "kill",
+		"description": "Delete the Actor",
+		"type": "function"
+	},
 
 	{
 		"text": "DACANCELLAREEE",
